@@ -1,6 +1,5 @@
 # GSP408
-## Navigation menu Navigation menu > BigQuery.
-### Run in cloudshell
+## Run in cloudshell
 ```cmd
 bq query --use_legacy_sql=false \
 'SELECT
