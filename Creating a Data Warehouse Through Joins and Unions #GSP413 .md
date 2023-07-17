@@ -45,6 +45,16 @@ GROUP BY
 ORDER BY
   total_ordered DESC"
 bq query --use_legacy_sql=false \
+'CREATE TABLE IF NOT EXISTS ecommerce.sales_by_sku_20170801 AS
+SELECT
+  productSKU,
+  SUM(IFNULL(productQuantity,0)) AS total_ordered
+FROM
+  `data-to-insights.ecommerce.all_sessions_raw`
+WHERE date = "20170801"
+GROUP BY productSKU
+ORDER BY total_ordered DESC'
+bq query --use_legacy_sql=false \
 '# join against product inventory to get name
 SELECT DISTINCT
   website.productSKU,
