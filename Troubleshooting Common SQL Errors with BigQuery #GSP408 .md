@@ -5,15 +5,6 @@
 ## Click Star.
 ### Run these query one by one
 ```cmd
-SELECT  FROM `data-to-inghts.ecommerce.rev_transactions` LIMIT 1000
-```
-```cmd
-SELECT * FROM [data-to-insights:ecommerce.rev_transactions] LIMIT 1000
-```
-```cmd
-SELECT FROM `data-to-insights.ecommerce.rev_transactions`
-```
-```cmd
 SELECT
 fullVisitorId
 FROM `data-to-insights.ecommerce.rev_transactions`
