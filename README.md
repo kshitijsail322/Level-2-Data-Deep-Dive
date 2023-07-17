@@ -9,7 +9,7 @@ If lab not working contact me on [Instagram @hardikgupta.social](https://www.ins
 |  01  | GSP294 | Introduction to APIs in Google | WORKING FINE ✅ | 16-07-2023 8:12 PM | UPLOADED |
 |  02  | GSP154 | Video Intelligence: Qwik Start | WORKING FINE ✅ | 16-07-2023 8:34 PM | UPLOADED |
 |  03  | GSP063 | Classify Text into Categories with the Natural Language API | ⚠️ LAB NOT WORKING | NO TIME | NOT UPLOADED |
-|  04  | GSP281 | Introduction to SQL for BigQuery and Cloud SQL | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
+|  04  | GSP281 | Introduction to SQL for BigQuery and Cloud SQL | WORKING FINE ✅ | 17-07-2023 2:23 PM | UPLOADED |
 |  05  | GSP408 | Troubleshooting Common SQL Errors with BigQuery | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
 |  06  | GSP1040 | BigLake: Qwik Start | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
 |  07  | GSP413 | Creating a Data Warehouse Through Joins and Unions | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
