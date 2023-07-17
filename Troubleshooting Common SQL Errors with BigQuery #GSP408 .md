@@ -1,8 +1,5 @@
 # GSP408
 ## Navigation menu Navigation menu > BigQuery.
-## Copy `data-to-insights`
-## Click + Add > Star a project by name then paste the `data-to-insights` name.
-## Click Star.
 ### Run these query one by one
 ```cmd
 SELECT
