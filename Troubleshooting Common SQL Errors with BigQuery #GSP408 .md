@@ -21,12 +21,6 @@ FROM `data-to-insights.ecommerce.rev_transactions` LIMIT 1000
 ```
 ```cmd
 SELECT
-  fullVisitorId
-  , hits_page_pageTitle
-FROM `data-to-insights.ecommerce.rev_transactions` LIMIT 1000
-```
-```cmd
-SELECT
 COUNT(fullVisitorId) AS visitor_count
 , hits_page_pageTitle
 FROM `data-to-insights.ecommerce.rev_transactions`
