@@ -6,27 +6,6 @@
 ### Run these query one by one
 ```cmd
 SELECT
-fullVisitorId
-FROM `data-to-insights.ecommerce.rev_transactions`
-```
-```cmd
-SELECT fullVisitorId hits_page_pageTitle
-FROM `data-to-insights.ecommerce.rev_transactions` LIMIT 1000
-```
-```cmd
-SELECT
-  fullVisitorId
-  , hits_page_pageTitle
-FROM `data-to-insights.ecommerce.rev_transactions` LIMIT 1000
-```
-```cmd
-SELECT
-COUNT(fullVisitorId) AS visitor_count
-, hits_page_pageTitle
-FROM `data-to-insights.ecommerce.rev_transactions`
-```
-```cmd
-SELECT
 COUNT(DISTINCT fullVisitorId) AS visitor_count
 , hits_page_pageTitle
 FROM `data-to-insights.ecommerce.rev_transactions`
@@ -39,6 +18,25 @@ COUNT(DISTINCT fullVisitorId) AS visitor_count
 FROM `data-to-insights.ecommerce.rev_transactions`
 WHERE hits_page_pageTitle = "Checkout Confirmation"
 GROUP BY hits_page_pageTitle
+```
+```cmd
+SELECT
+geoNetwork_city,
+SUM(totals_transactions) AS totals_transactions,
+COUNT( DISTINCT fullVisitorId) AS distinct_visitors
+FROM
+`data-to-insights.ecommerce.rev_transactions`
+GROUP BY geoNetwork_city
+```
+```cmd
+SELECT
+geoNetwork_city,
+SUM(totals_transactions) AS totals_transactions,
+COUNT( DISTINCT fullVisitorId) AS distinct_visitors
+FROM
+`data-to-insights.ecommerce.rev_transactions`
+GROUP BY geoNetwork_city
+ORDER BY distinct_visitors DESC
 ```
 ```cmd
 SELECT
