@@ -10,7 +10,7 @@ If lab not working contact me on [Instagram @hardikgupta.social](https://www.ins
 |  02  | GSP154 | Video Intelligence: Qwik Start | WORKING FINE ✅ | 16-07-2023 8:34 PM | UPLOADED |
 |  03  | GSP281 | Introduction to SQL for BigQuery and Cloud SQL | WORKING FINE ✅ | 17-07-2023 2:23 PM | UPLOADED |
 |  04  | GSP408 | Troubleshooting Common SQL Errors with BigQuery | WORKING FINE ✅ | 17-07-2023 6:47 PM | UPLOADED |
-|  05  | GSP1040 | BigLake: Qwik Start | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
+|  05  | GSP1040 | BigLake: Qwik Start | WORKING FINE ✅ | 17-07-2023 8:16 PM | UPLOADED |
 |  06  | GSP413 | Creating a Data Warehouse Through Joins and Unions | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
 |  07  | GSP407 | Exploring Your Ecommerce Dataset with SQL in Google BigQuery | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
 |  08  | GSP123 | Introduction to Cloud Dataproc: Hadoop and Spark on Google Cloud | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
