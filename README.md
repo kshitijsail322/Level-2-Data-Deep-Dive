@@ -16,7 +16,7 @@ If lab not working contact me on [Instagram @hardikgupta.social](https://www.ins
 |  08  | GSP123 | Introduction to Cloud Dataproc: Hadoop and Spark on Google Cloud | WORKING FINE ✅ | 17-07-2023 9:50 PM | UPLOADED |
 |  09  | GSP271 | Machine Learning with Spark on Google Cloud Dataproc | WORKING FINE ✅ | 18-07-2023 4:19 PM | UPLOADED |
 |  10  | GSP107 | Data Loss Prevention: Qwik Start - JSON | WORKING FINE ✅ | 18-07-2023 4:32 PM | UPLOADED |
-|  11  | GSP864 | Redacting Sensitive Data with Cloud Data Loss Prevention | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
+|  11  | GSP864 | Redacting Sensitive Data with Cloud Data Loss Prevention | WORKING FINE ✅ | 18-07-2023 4:42 PM | UPLOADED |
 |  12  | GSP1073 | Creating a De-identified Copy of Data in Cloud Storage | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
 |  13  | ARC116 | Protect Sensitive Data with Data Loss Prevention: Challenge Lab | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
 |  14  | ARC129 | Secure BigLake Data: Challenge Lab | NOT CHECKED ❌ | NO TIME | NOT UPLOADED |
