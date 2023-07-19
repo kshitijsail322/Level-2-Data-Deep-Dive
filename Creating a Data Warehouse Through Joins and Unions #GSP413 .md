@@ -2,6 +2,7 @@
 ## Run in cloudshell
 ```cmd
 bq mk ecommerce
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 'create or replace TABLE ecommerce.products AS
 SELECT
@@ -44,6 +45,7 @@ GROUP BY
   productSKU
 ORDER BY
   total_ordered DESC"
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 'CREATE TABLE IF NOT EXISTS ecommerce.sales_by_sku_20170801 AS
 SELECT
@@ -93,6 +95,7 @@ bq query --use_legacy_sql=false \
 productSKU STRING,
 total_ordered INT64
 );'
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 "INSERT INTO ecommerce.sales_by_sku_20170802
 (productSKU, total_ordered)
@@ -104,4 +107,5 @@ SELECT * FROM ecommerce.sales_by_sku_20170802'
 bq query --use_legacy_sql=false \
 "SELECT * FROM \`ecommerce.sales_by_sku_2017*\`
 WHERE _TABLE_SUFFIX = '0802'"
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 ```
