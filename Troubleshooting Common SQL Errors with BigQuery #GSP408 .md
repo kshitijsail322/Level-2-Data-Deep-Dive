@@ -7,6 +7,7 @@ COUNT(DISTINCT fullVisitorId) AS visitor_count
 , hits_page_pageTitle
 FROM `data-to-insights.ecommerce.rev_transactions`
 GROUP BY hits_page_pageTitle'
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 'SELECT
 COUNT(DISTINCT fullVisitorId) AS visitor_count
@@ -22,6 +23,7 @@ COUNT( DISTINCT fullVisitorId) AS distinct_visitors
 FROM
 `data-to-insights.ecommerce.rev_transactions`
 GROUP BY geoNetwork_city'
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 'SELECT
 geoNetwork_city,
@@ -31,6 +33,7 @@ FROM
 `data-to-insights.ecommerce.rev_transactions`
 GROUP BY geoNetwork_city
 ORDER BY distinct_visitors DESC'
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 'SELECT
 geoNetwork_city,
@@ -61,4 +64,5 @@ WHERE hits_product_v2ProductName IS NOT NULL
 GROUP BY hits_product_v2ProductCategory
 ORDER BY number_of_products DESC
 LIMIT 5'
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 ```
