@@ -32,7 +32,7 @@ SELECT
   COUNT(*) AS product_views,
   COUNT(DISTINCT fullVisitorId) AS unique_visitors
 FROM `data-to-insights.ecommerce.all_sessions`;'
-
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 'SELECT
   COUNT(DISTINCT fullVisitorId) AS unique_visitors,
@@ -83,6 +83,7 @@ WHERE type = "PAGE"
 GROUP BY v2ProductName
 ORDER BY product_views DESC
 LIMIT 5;'
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 bq query --use_legacy_sql=false \
 'SELECT
   COUNT(*) AS product_views,
@@ -95,4 +96,5 @@ WHERE type = "PAGE"
 GROUP BY v2ProductName
 ORDER BY product_views DESC
 LIMIT 5;'
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 ```
