@@ -6,9 +6,11 @@ gcloud compute ssh "startup-vm" --project $DEVSHELL_PROJECT_ID
 ```
 ```cmd
 git clone https://github.com/GoogleCloudPlatform/data-science-on-gcp/
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 cd ~/data-science-on-gcp/06_dataproc
 export PROJECT_ID=$(gcloud info --format='value(config.project)')
 export BUCKET_NAME=$PROJECT_ID-dsongcp
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 ./create_cluster.sh $BUCKET_NAME us-west1
 ```
 ```cmd
@@ -16,8 +18,10 @@ exit
 ```
 ```cmd
 curl -LJO https://github.com/CodingWithHardik/Level-2-Data-Deep-Dive/raw/master/files/CodingWithHardik-GSP271.txt
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 mv CodingWithHardik-GSP271.txt CodingWithHardik-GSP271.ipynb
 gsutil cp CodingWithHardik-GSP271.ipynb gs://dataproc-staging*/notebooks/jupyter
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 ```
 ### Go to [Navigation menu > Dataproc](https://console.cloud.google.com/dataproc/clusters) > ch6cluster > Web Interfaces > JupyterLab
 ### There will be a file named `CodingWithHardik-GSP271.ipynb`
