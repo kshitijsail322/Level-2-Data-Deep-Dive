@@ -23,6 +23,7 @@ cat > inspect-request.json << EOF
   }
 }
 EOF
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 gcloud auth print-access-token
 curl -s \
   -H "Authorization: Bearer $(gcloud auth print-access-token)" \
@@ -53,6 +54,7 @@ cat > new-inspect-file.json << EOF
     }
 }
 EOF
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 curl -s \
   -H "Authorization: Bearer $(gcloud auth print-access-token)" \
   -H "Content-Type: application/json" \
@@ -60,4 +62,5 @@ curl -s \
   -d @new-inspect-file.json -o redact-output.txt
 cat redact-output.txt
 gsutil cp redact-output.txt gs://$DEVSHELL_PROJECT_ID-bucket
+echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 ```
