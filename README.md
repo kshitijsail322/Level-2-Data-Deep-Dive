@@ -19,4 +19,4 @@ If lab not working contact me on [Instagram @hardikgupta.social](https://www.ins
 |  11  | GSP864 | Redacting Sensitive Data with Cloud Data Loss Prevention | WORKING FINE ✅ | 18-07-2023 4:42 PM | UPLOADED |
 |  12  | GSP1073 | Creating a De-identified Copy of Data in Cloud Storage | DO MANUALLY ⚠️ | NO TIME | NOT UPLOADED |
 |  13  | ARC116 | Protect Sensitive Data with Data Loss Prevention: Challenge Lab | DO MANUALLY ⚠️ | NO TIME | NOT UPLOADED |
-|  14  | ARC129 | Secure BigLake Data: Challenge Lab | DO MANUALLY ⚠️ | NO TIME | NOT UPLOADED |
+|  14  | ARC129 | Secure BigLake Data: Challenge Lab | WORKING FINE ✅ | 19-07-2023 3:05 PM | UPLOADED |
